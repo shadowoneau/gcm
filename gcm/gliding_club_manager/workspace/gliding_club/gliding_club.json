@@ -1,0 +1,47 @@
+{
+ "charts": [],
+ "content": "[]",
+ "creation": "2021-11-02 11:56:27.808491",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "idx": 0,
+ "label": "Gliding Club",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Qualifications",
+   "link_count": 0,
+   "link_to": "Qualifications List",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2021-11-02 12:23:23.718646",
+ "modified_by": "admin@ldjcs.com.au",
+ "module": "Gliding Club Manager",
+ "name": "Gliding Club",
+ "owner": "admin@ldjcs.com.au",
+ "public": 1,
+ "restrict_to_domain": "Gliding Club Management",
+ "roles": [
+  {
+   "role": "Operations Manager"
+  },
+  {
+   "role": "Operations User"
+  }
+ ],
+ "sequence_id": 1,
+ "shortcuts": [
+  {
+   "doc_view": "List",
+   "label": "Quals",
+   "link_to": "Qualifications List",
+   "type": "DocType"
+  }
+ ],
+ "title": "Gliding Club"
+}
