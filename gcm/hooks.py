@@ -11,8 +11,17 @@ app_license = "MIT"
 
 fixures = [
         # export all records from these docTypes:
-        "Qualifications List",
-        "Competency Details"
+        'Qualifications List',
+        'Competency Details',
+        'Role',
+        'Report',
+        'Role Profile',
+        'Custom Field',
+        'Custom Script',
+        'Property Setter',
+        'Workflow',
+        'Workflow State',
+        'Workflow Action'
 ]
 # Includes in <head>
 # ------------------
