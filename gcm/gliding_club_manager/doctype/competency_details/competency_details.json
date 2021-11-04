@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "[CP.#####]",
+ "autoname": "format:{competency}",
  "creation": "2021-11-02 11:02:57.673634",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -42,11 +42,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-11-04 11:16:18.356645",
+ "modified": "2021-11-04 11:45:43.963740",
  "modified_by": "Administrator",
  "module": "Gliding Club Manager",
  "name": "Competency Details",
- "naming_rule": "Expression (old style)",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
