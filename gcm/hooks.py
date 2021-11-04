@@ -9,7 +9,7 @@ app_color = "grey"
 app_email = "lucas.james@ldjcs.com.au"
 app_license = "MIT"
 
-fixures = [
+fixtures = [
         # export all records from these docTypes:
         'Qualifications List',
         'Competency Details',
