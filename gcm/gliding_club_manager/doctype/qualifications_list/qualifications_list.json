@@ -1,0 +1,80 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{shortqual}",
+ "creation": "2021-11-02 08:58:32.909596",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "shortqual",
+  "description",
+  "expiredays",
+  "active",
+  "new_qual"
+ ],
+ "fields": [
+  {
+   "fieldname": "shortqual",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Acronym",
+   "reqd": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Description"
+  },
+  {
+   "fieldname": "expiredays",
+   "fieldtype": "Int",
+   "label": "Days to expire"
+  },
+  {
+   "fieldname": "active",
+   "fieldtype": "Select",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Active",
+   "options": "Active\nInactive"
+  },
+  {
+   "depends_on": "eval:doc.active=='Inactive'",
+   "fieldname": "new_qual",
+   "fieldtype": "Link",
+   "label": "Replacement Qualificaiton",
+   "options": "Qualifications List"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-11-04 11:16:09.734121",
+ "modified_by": "Administrator",
+ "module": "Gliding Club Manager",
+ "name": "Qualifications List",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}
