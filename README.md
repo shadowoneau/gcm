@@ -1,6 +1,8 @@
 ## Gliding Club Manager
 
-Management modules for a Gliding Club
+ERPNext management modules for a Gliding Club
+
+You will need to install Bench, Frappe, ERPNext to use these modules
 
 #### License
 
