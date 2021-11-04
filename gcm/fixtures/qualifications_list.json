@@ -1,0 +1,58 @@
+[
+ {
+  "active": "Active",
+  "description": "Recreational Pilot License",
+  "docstatus": 0,
+  "doctype": "Qualifications List",
+  "expiredays": 0,
+  "modified": "2021-11-02 09:36:59.159116",
+  "name": "RPLA",
+  "new_qual": null,
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "shortqual": "RPLA"
+ },
+ {
+  "active": "Active",
+  "description": "Glider Pilot Certificate",
+  "docstatus": 0,
+  "doctype": "Qualifications List",
+  "expiredays": 0,
+  "modified": "2021-11-02 09:43:40.189926",
+  "name": "GPC",
+  "new_qual": null,
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "shortqual": "GPC"
+ },
+ {
+  "active": "Active",
+  "description": "Flight Review - Single Engined Aircraft",
+  "docstatus": 0,
+  "doctype": "Qualifications List",
+  "expiredays": 730,
+  "modified": "2021-11-02 09:44:19.056531",
+  "name": "FR-SEA",
+  "new_qual": null,
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "shortqual": "FR-SEA"
+ },
+ {
+  "active": "Active",
+  "description": "Flight Review - Glider",
+  "docstatus": 0,
+  "doctype": "Qualifications List",
+  "expiredays": 730,
+  "modified": "2021-11-02 09:44:37.764591",
+  "name": "FR-G",
+  "new_qual": null,
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "shortqual": "FR-G"
+ }
+]

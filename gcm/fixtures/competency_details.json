@@ -1,0 +1,54 @@
+[
+ {
+  "active": "Active",
+  "competency": "1 Lookout Awareness",
+  "description": "Lookout Awareness",
+  "docstatus": 0,
+  "doctype": "Competency Details",
+  "modified": "2021-11-04 11:45:03.370611",
+  "name": "1. Lookout Awareness",
+  "parent": null,
+  "parent_qualification": "GPC",
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "active": "Active",
+  "competency": "1.1 Lookout Priority",
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Competency Details",
+  "modified": "2021-11-04 11:44:43.659429",
+  "name": "1.1 Lookout Priority",
+  "parent": null,
+  "parent_qualification": "GPC",
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "active": "Active",
+  "competency": "1.2 Application of Lookout",
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Competency Details",
+  "modified": "2021-11-04 11:56:41.582440",
+  "name": "1.2 Application of Lookout",
+  "parent": null,
+  "parent_qualification": "GPC",
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "active": "Active",
+  "competency": "1.3 Collision Avoidance",
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Competency Details",
+  "modified": "2021-11-04 11:56:33.701436",
+  "name": "1.3 Collision Avoidance",
+  "parent": null,
+  "parent_qualification": "GPC",
+  "parentfield": null,
+  "parenttype": null
+ }
+]
