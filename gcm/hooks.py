@@ -17,7 +17,7 @@ fixtures = [
         'Report',
         'Role Profile',
         'Custom Field',
-        'Custom Script',
+        #'Custom Script',
         'Property Setter',
         'Workflow',
         'Workflow State',
