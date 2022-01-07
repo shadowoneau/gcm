@@ -1,0 +1,67 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{competency}",
+ "creation": "2021-11-02 11:02:57.673634",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "competency",
+  "active",
+  "description",
+  "parent_qualification"
+ ],
+ "fields": [
+  {
+   "fieldname": "competency",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Competency",
+   "reqd": 1
+  },
+  {
+   "fieldname": "active",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "active",
+   "options": "Active\nInactive",
+   "reqd": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "fieldname": "parent_qualification",
+   "fieldtype": "Link",
+   "label": "Parent Qualification",
+   "options": "Qualifications List"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-11-04 11:45:43.963740",
+ "modified_by": "Administrator",
+ "module": "Gliding Club Manager",
+ "name": "Competency List",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

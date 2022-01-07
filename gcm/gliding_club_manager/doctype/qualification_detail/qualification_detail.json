@@ -1,0 +1,63 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{shortqual}",
+ "creation": "2021-11-04 14:02:31.013304",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "shortqual",
+  "awarded_on",
+  "expiry_date",
+  "active"
+ ],
+ "fields": [
+  {
+   "fieldname": "shortqual",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Qualification",
+   "options": "Qualifications List",
+   "reqd": 1
+  },
+  {
+   "fieldname": "active",
+   "fieldtype": "Select",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Active",
+   "options": "Active\nInactive"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "awarded_on",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Awarded On"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "expiry_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Expiry Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-11-04 14:18:34.812818",
+ "modified_by": "Administrator",
+ "module": "Gliding Club Manager",
+ "name": "Qualification Detail",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}
