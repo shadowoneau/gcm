@@ -50,5 +50,31 @@
   "parent_qualification": "GPC",
   "parentfield": null,
   "parenttype": null
+ },
+ {
+  "active": "Active",
+  "competency": "2. Ground Hand, Signals",
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Competency Details",
+  "modified": "2022-01-07 07:15:54.688557",
+  "name": "2. Ground Hand, Signals",
+  "parent": null,
+  "parent_qualification": "GPC",
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "active": "Active",
+  "competency": "2.1 Control and move Glider on the ground",
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Competency Details",
+  "modified": "2022-01-07 07:18:56.888506",
+  "name": "2.1 Control and move Glider on the ground",
+  "parent": null,
+  "parent_qualification": "GPC",
+  "parentfield": null,
+  "parenttype": null
  }
 ]
